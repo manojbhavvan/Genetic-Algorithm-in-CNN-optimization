@@ -1,0 +1,116 @@
+Downloading data from https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+170500096/170498071 [==============================] - 6s 0us/step
+
+2022-01-22 11:33:10.222087: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2022-01-22 11:33:10.222201: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-01-22 11:33:13.075978: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'nvcuda.dll'; dlerror: nvcuda.dll not found
+2022-01-22 11:33:13.076080: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-01-22 11:33:13.079042: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: ManojBhavvan
+2022-01-22 11:33:13.079192: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: ManojBhavvan
+2022-01-22 11:33:13.079459: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+
+((50000, 32, 32, 3), (50000, 1))
+
+((10000, 32, 32, 3), (10000, 1))
+
+
+
+313/313 [==============================] - 1s 3ms/step - loss: 0.7881 - accuracy: 0.7664
+Parameters:  {'f1': 32, 'f2': 64, 'f3': 256, 'k': 3, 'a1': 'relu', 'a2': 'relu', 'd1': 0.2, 'd2': 0.3, 'op': 'adamax', 'ep': 56}
+Accuracy:  0.766
+313/313 [==============================] - 1s 3ms/step - loss: 1.2659 - accuracy: 0.5485
+Parameters:  {'f1': 64, 'f2': 64, 'f3': 256, 'k': 5, 'a1': 'relu', 'a2': 'elu', 'd1': 0.2, 'd2': 0.1, 'op': 'adagrad', 'ep': 63}
+Accuracy:  0.549
+313/313 [==============================] - 1s 3ms/step - loss: 0.6728 - accuracy: 0.7761
+Parameters:  {'f1': 32, 'f2': 64, 'f3': 512, 'k': 3, 'a1': 'selu', 'a2': 'relu', 'd1': 0.5, 'd2': 0.3, 'op': 'adam', 'ep': 69}
+Accuracy:  0.776
+313/313 [==============================] - 1s 3ms/step - loss: 1.1614 - accuracy: 0.7210
+Parameters:  {'f1': 32, 'f2': 128, 'f3': 256, 'k': 5, 'a1': 'selu', 'a2': 'relu', 'd1': 0.2, 'd2': 0.4, 'op': 'adamax', 'ep': 61}
+Accuracy:  0.721
+313/313 [==============================] - 1s 3ms/step - loss: 1.0579 - accuracy: 0.7461
+Parameters:  {'f1': 64, 'f2': 128, 'f3': 128, 'k': 5, 'a1': 'relu', 'a2': 'relu', 'd1': 0.3, 'd2': 0.1, 'op': 'adamax', 'ep': 89}
+Accuracy:  0.746
+313/313 [==============================] - 1s 3ms/step - loss: 1.3260 - accuracy: 0.5261
+Parameters:  {'f1': 64, 'f2': 64, 'f3': 128, 'k': 5, 'a1': 'relu', 'a2': 'relu', 'd1': 0.2, 'd2': 0.4, 'op': 'adagrad', 'ep': 87}
+Accuracy:  0.526
+313/313 [==============================] - 1s 3ms/step - loss: 1.1504 - accuracy: 0.6688
+Parameters:  {'f1': 64, 'f2': 128, 'f3': 256, 'k': 3, 'a1': 'relu', 'a2': 'selu', 'd1': 0.1, 'd2': 0.5, 'op': 'adam', 'ep': 79}
+Accuracy:  0.669
+313/313 [==============================] - 1s 3ms/step - loss: 2.1731 - accuracy: 0.2187
+Parameters:  {'f1': 64, 'f2': 64, 'f3': 128, 'k': 5, 'a1': 'relu', 'a2': 'relu', 'd1': 0.4, 'd2': 0.4, 'op': 'adadelta', 'ep': 62}
+Accuracy:  0.219
+313/313 [==============================] - 1s 3ms/step - loss: 1.2687 - accuracy: 0.7189
+Parameters:  {'f1': 32, 'f2': 128, 'f3': 128, 'k': 5, 'a1': 'elu', 'a2': 'relu', 'd1': 0.2, 'd2': 0.4, 'op': 'adam', 'ep': 89}
+Accuracy:  0.719
+313/313 [==============================] - 1s 3ms/step - loss: 1.1307 - accuracy: 0.6051
+Parameters:  {'f1': 64, 'f2': 64, 'f3': 256, 'k': 5, 'a1': 'elu', 'a2': 'selu', 'd1': 0.1, 'd2': 0.4, 'op': 'adagrad', 'ep': 62}
+Accuracy:  0.605
+Generation  1  Outcome: 
+Maximum accuracy in generation 1 : 0.7760999798774719
+313/313 [==============================] - 1s 3ms/step - loss: 0.7609 - accuracy: 0.7697
+Parameters:  {'f1': 32, 'f2': 64, 'f3': 256, 'k': 3, 'a1': 'relu', 'a2': 'relu', 'd1': 0.2, 'd2': 0.3, 'op': 'adamax', 'ep': 56}
+Accuracy:  0.77
+313/313 [==============================] - 1s 3ms/step - loss: 1.2153 - accuracy: 0.5741
+Parameters:  {'f1': 64, 'f2': 64, 'f3': 256, 'k': 5, 'a1': 'relu', 'a2': 'elu', 'd1': 0.2, 'd2': 0.1, 'op': 'adagrad', 'ep': 63}
+Accuracy:  0.574
+313/313 [==============================] - 1s 3ms/step - loss: 0.6728 - accuracy: 0.7810
+Parameters:  {'f1': 32, 'f2': 64, 'f3': 512, 'k': 3, 'a1': 'selu', 'a2': 'relu', 'd1': 0.5, 'd2': 0.3, 'op': 'adam', 'ep': 69}
+Accuracy:  0.781
+313/313 [==============================] - 1s 3ms/step - loss: 1.1003 - accuracy: 0.7321
+Parameters:  {'f1': 32, 'f2': 128, 'f3': 256, 'k': 5, 'a1': 'selu', 'a2': 'relu', 'd1': 0.2, 'd2': 0.4, 'op': 'adamax', 'ep': 61}
+Accuracy:  0.732
+313/313 [==============================] - 1s 3ms/step - loss: 1.1546 - accuracy: 0.7473
+Parameters:  {'f1': 64, 'f2': 128, 'f3': 128, 'k': 5, 'a1': 'relu', 'a2': 'relu', 'd1': 0.3, 'd2': 0.1, 'op': 'adamax', 'ep': 89}
+Accuracy:  0.747
+313/313 [==============================] - 1s 3ms/step - loss: 1.3158 - accuracy: 0.5255
+Parameters:  {'f1': 64, 'f2': 64, 'f3': 128, 'k': 5, 'a1': 'relu', 'a2': 'relu', 'd1': 0.2, 'd2': 0.4, 'op': 'adagrad', 'ep': 87}
+Accuracy:  0.525
+313/313 [==============================] - 1s 3ms/step - loss: 1.3561 - accuracy: 0.6576
+Parameters:  {'f1': 64, 'f2': 128, 'f3': 256, 'k': 3, 'a1': 'relu', 'a2': 'selu', 'd1': 0.1, 'd2': 0.5, 'op': 'adam', 'ep': 79}
+Accuracy:  0.658
+313/313 [==============================] - 1s 3ms/step - loss: 1.1208 - accuracy: 0.6137
+Parameters:  {'f1': 64, 'f2': 64, 'f3': 256, 'k': 5, 'a1': 'elu', 'a2': 'selu', 'd1': 0.1, 'd2': 0.4, 'op': 'adagrad', 'ep': 62}
+Accuracy:  0.614
+313/313 [==============================] - 1s 3ms/step - loss: 1.0799 - accuracy: 0.6846
+Parameters:  {'f1': 32, 'f2': 64, 'f3': 512, 'k': 5, 'a1': 'elu', 'a2': 'selu', 'd1': 0.2, 'd2': 0.3, 'op': 'adam', 'ep': 63}
+Accuracy:  0.685
+313/313 [==============================] - 1s 3ms/step - loss: 1.3635 - accuracy: 0.4997
+Parameters:  {'f1': 64, 'f2': 64, 'f3': 512, 'k': 5, 'a1': 'relu', 'a2': 'relu', 'd1': 0.5, 'd2': 0.1, 'op': 'adagrad', 'ep': 69}
+Accuracy:  0.5
+Generation  2  Outcome: 
+Maximum accuracy in generation 2 : 0.781000018119812
+313/313 [==============================] - 1s 3ms/step - loss: 0.8148 - accuracy: 0.7620
+Parameters:  {'f1': 32, 'f2': 64, 'f3': 256, 'k': 3, 'a1': 'relu', 'a2': 'relu', 'd1': 0.2, 'd2': 0.3, 'op': 'adamax', 'ep': 56}
+Accuracy:  0.762
+313/313 [==============================] - 1s 3ms/step - loss: 1.2396 - accuracy: 0.5644
+Parameters:  {'f1': 64, 'f2': 64, 'f3': 256, 'k': 5, 'a1': 'relu', 'a2': 'elu', 'd1': 0.2, 'd2': 0.1, 'op': 'adagrad', 'ep': 63}
+Accuracy:  0.564
+313/313 [==============================] - 1s 3ms/step - loss: 0.6970 - accuracy: 0.7775
+Parameters:  {'f1': 32, 'f2': 64, 'f3': 512, 'k': 3, 'a1': 'selu', 'a2': 'relu', 'd1': 0.5, 'd2': 0.3, 'op': 'adam', 'ep': 69}
+Accuracy:  0.777
+313/313 [==============================] - 1s 3ms/step - loss: 1.2340 - accuracy: 0.7319
+Parameters:  {'f1': 32, 'f2': 128, 'f3': 256, 'k': 5, 'a1': 'selu', 'a2': 'relu', 'd1': 0.2, 'd2': 0.4, 'op': 'adamax', 'ep': 61}
+Accuracy:  0.732
+313/313 [==============================] - 1s 3ms/step - loss: 1.0540 - accuracy: 0.7484
+Parameters:  {'f1': 64, 'f2': 128, 'f3': 128, 'k': 5, 'a1': 'relu', 'a2': 'relu', 'd1': 0.3, 'd2': 0.1, 'op': 'adamax', 'ep': 89}
+Accuracy:  0.748
+313/313 [==============================] - 1s 3ms/step - loss: 1.3253 - accuracy: 0.5142
+Parameters:  {'f1': 64, 'f2': 64, 'f3': 128, 'k': 5, 'a1': 'relu', 'a2': 'relu', 'd1': 0.2, 'd2': 0.4, 'op': 'adagrad', 'ep': 87}
+Accuracy:  0.514
+313/313 [==============================] - 1s 3ms/step - loss: 1.2125 - accuracy: 0.6728
+Parameters:  {'f1': 64, 'f2': 128, 'f3': 256, 'k': 3, 'a1': 'relu', 'a2': 'selu', 'd1': 0.1, 'd2': 0.5, 'op': 'adam', 'ep': 79}
+Accuracy:  0.673
+313/313 [==============================] - 1s 3ms/step - loss: 1.1153 - accuracy: 0.6096
+Parameters:  {'f1': 64, 'f2': 64, 'f3': 256, 'k': 5, 'a1': 'elu', 'a2': 'selu', 'd1': 0.1, 'd2': 0.4, 'op': 'adagrad', 'ep': 62}
+Accuracy:  0.61
+313/313 [==============================] - 1s 3ms/step - loss: 1.0520 - accuracy: 0.6843
+Parameters:  {'f1': 32, 'f2': 64, 'f3': 512, 'k': 5, 'a1': 'elu', 'a2': 'selu', 'd1': 0.2, 'd2': 0.3, 'op': 'adam', 'ep': 63}
+Accuracy:  0.684
+313/313 [==============================] - 1s 3ms/step - loss: 1.2057 - accuracy: 0.5658
+Parameters:  {'f1': 64, 'f2': 64, 'f3': 256, 'k': 5, 'a1': 'selu', 'a2': 'relu', 'd1': 0.1, 'd2': 0.1, 'op': 'adagrad', 'ep': 65}
+Accuracy:  0.566
+Generation  3  Outcome: 
+Maximum accuracy in generation 3 : 0.7774999737739563
+
